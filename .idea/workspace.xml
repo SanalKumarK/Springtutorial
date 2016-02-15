@@ -259,6 +259,7 @@
     <property name="recentsLimit" value="5" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dynamic.classpath" value="false" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -584,12 +585,12 @@
       <changelist id="fd587a1e-00fe-4524-adb3-780149d30214" name="Default" comment="" />
       <created>1455509522504</created>
       <updated>1455509522504</updated>
-      <workItem from="1455551254873" duration="962000" />
+      <workItem from="1455551254873" duration="1558000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="962000" />
+    <option name="totallyTimeSpent" value="1558000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
