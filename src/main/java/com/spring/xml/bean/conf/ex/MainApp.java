@@ -15,8 +15,18 @@ public class MainApp {
 
         SanalWorld sanalWorld = (SanalWorld) context.getBean("sanalWorld");
 
+        JavaCollection javaCollection = (JavaCollection) context.getBean("javaCollection");
+
         System.out.println(obj.getMessage());
 
         System.out.println(sanalWorld.getFeeling());
+
+        System.out.println(javaCollection.getList());
+
+        System.out.println(javaCollection.getSet());
+
+        System.out.println(javaCollection.getAddMap());
+
+        System.out.println(javaCollection.getProps());
     }
 }
