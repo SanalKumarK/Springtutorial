@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+    <bean id="helloWorld" class="com.spring.xml.bean.conf.ex.HelloWorld">
+        <property name="message" value="Achu Loves Sanal!"/>
+    </bean>
+
+    <bean id="sanalWorld" class="com.spring.xml.bean.conf.ex.SanalWorld">
+        <property name="feeling" value="Sanal Loves Achu!"/>
+    </bean>
+
+    <bean id="beanInitializers" class="com.spring.xml.bean.conf.ex.InitiHelloWorld"/>
+</beans>
